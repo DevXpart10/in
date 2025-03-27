@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevXpart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+    .xx{
+            border-bottom: 8px solid blue;
+            border-radius: 40px
+    }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        p{
+                font-size: 20px;
+        }
+        .container {
+            width: 85%;
+            height: auto;
+            margin: auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            border: 4px solid greenyellow;
+        }
+        img.profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-top: 1px;
+            border: 4px dashed  #007bff;
+        }
+        h1 {
+            font-size: 35px;
+            margin-top: 5px;
+            color: #333; 
+                
+        }
+        .vvv{
+        width: 85%
+        height: fit-content;
+        border-bottom: 8px solid blue;
+        border-radius:30px;
+        margin: 20px;
+        padding: 1px;
+    display: flex;
+    justify-content: center; /* অনুভূমিকভাবে সেন্টার */
+    align-items: center; 
+         }
+         video{
+                 width: 84%;
+                 border:5px solid red;
+                 border-radius: 10px 10px 0px 0px;
+         }
+         
+         .fontext{
+                 font-family: 'Noto Serif Bengali', serif;
+                 font-size: 34px;
+                 color: red;
+                 text-shadow:2px 1px 4px greenyellow;
+         }
+         .bot{
+                 
+         }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 15px;
+            margin-right: 30px;
+        }
+        .links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            border: 2px solid ;
+            transition: transform 0.2s ease-in-out;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+        .links a img {
+            width: 22px;
+            height: 22px;
+        }
+
+        /* Platform styles */
+        .facebook { background: white; color: #1877f2; border: 2px solid #1877f2; }
+        .tiktok { background: white; color: black; border: 2px solid black; }
+        .youtube { background: white; color: #ff0000; border: 2px solid #ff0000; }
+        .github { background: white; color: #333; border: 2px solid #333; }
+        .telegram { background: white; color: #0088cc; border: 2px solid #0088cc; }
+        .facebook:hover, .tiktok:hover, .youtube:hover, .github:hover, .telegram:hover { transform: scale(1.05); }
+
+        /* Contact Buttons */
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .contact-buttons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 48%;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+        .email-btn { background: white; color: black; border: 2px solid black; }
+        .whatsapp-btn { background: white; color: #25D366; border: 2px solid #25D366; }
+        .contact-buttons a img {
+            width: 20px;
+            height: 20px;
+        }
+        .email-btn:hover, .whatsapp-btn:hover { transform: scale(1.05); }
+
+    </style>
+</head>
+<body>
+
+    <!-- সোশ্যাল মিডিয়া লিংক সেকশন -->
+    <div class="container">
+        <img class="profile-pic" src="https://i.postimg.cc/SxVcHygt/image.png" alt="Profile Picture">
+        <h1>DevXpart</h1>
+        <p>Follow us on social media</p>
+        
+        <div class="links">
+            <a href="https://www.facebook.com/share/15cgrocCdC/" target="_blank" class="facebook">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"> Facebook
+            </a>
+            <a href="https://www.tiktok.com/@devxpart" target="_blank" class="tiktok">
+                <img src="https://cdn-icons-png.flaticon.com/512/3046/3046122.png" alt="TikTok"> TikTok
+            </a>
+            <a href="https://youtube.com/@devxpartbd" target="_blank" class="youtube">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"> YouTube
+            </a>
+            <a href="https://github.com/DevXpart10" target="_blank" class="github">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"> GitHub
+            </a>
+            <a href="https://t.me/DevXpertBD" target="_blank" class="telegram">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram"> Telegram
+            </a>
+        </div>
+
+        <!-- Email & WhatsApp Buttons -->
+        <div class="contact-buttons">
+            <a href="mailto:devxpart@yahoo.com?subject=Contact&body=Hello," class="email-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail"> Email
+            </a>
+            <a href="https://wa.me/+8801405658377" target="_blank" class="whatsapp-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"> WhatsApp
+            </a>
+        </div>
+    </div>
+    <div class="xx">
+            <video src="x.mp4" loop autoplay muted></video>
+    </div>
+<div class="bot">
+        <marquee behavior="scrol" direction="left">
+           <span class="fontext">
+                  নিজের একমাত্র বায়োলিংক শেয়ার পেজ তৈরি করুন!
+
+আপনার সকল গুরুত্বপূর্ণ লিংক একত্রে রাখতে চান? আপনার সোশ্যাল মিডিয়া, ব্যবসার তথ্য, ওয়েবসাইট, কন্টাক্ট লিংক সব কিছু এক জায়গায় যোগ করুন।
+
+একটি সুন্দর ও প্রফেশনাল বায়োলিংক পেজ তৈরি করতে চান? এখনই যোগাযোগ করুন!
+
+কেন এটি ব্যবহার করবেন?
+
+সকল লিংক এক জায়গায় রাখতে পারবেন
+
+সহজেই যেকোনো প্ল্যাটফর্মে শেয়ার করতে পারবেন
+
+মোবাইল-ফ্রেন্ডলি ও আকর্ষণীয় ডিজাইন
+
+প্রয়োজন অনুযায়ী লিংক পরিবর্তন করা যাবে
+
+
+আপনার পছন্দ অনুযায়ী সম্পূর্ণ কাস্টমাইজড বায়োলিংক পেজ পেতে হোয়াটসঅ্যাপে মেসেজ করুন!
+ <!--Tab to edit-->
+           </span>     
+        </marquee>
+</div>
+
+</body>
+</html>
